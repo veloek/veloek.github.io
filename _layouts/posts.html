@@ -13,8 +13,8 @@
             <a href="/">{{ site.name }}</a>
         </div>
         <div class="one-third column">
-            {% if next.previous != nil %}
-                <a href="{{ next.previous.url }}">{{ next.previous.title }}</a>
+            {% if page.next != nil %}
+                <a href="{{ page.next.url }}">{{ page.next.title }}</a>
             {% else %}
                 No next post
             {% endif %}
