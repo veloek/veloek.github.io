@@ -22,7 +22,7 @@ Det tok noe tid før jeg fikk tildelt en API-nøkkel (som kreves for å bruke AP
 
 Appen ble først publisert i 2012, og har egentlig fungert vedlikeholdsfritt. Det har hent at den ikke får opp informasjon, men da har det vært pga. trøbbel hos AtB, så det har holdt å vente litt. En gang var det dog litt værre. De bestemte seg plutselig for å skifte datoformat, og da sluttet alt å fungerte. Heldigvis oppdaget jeg feilen kjapt og fikk rettet opp det. Ikke særlig bra fra AtBs sin side å gjøre sånne endringer uten å sende ut en mail til de med API-nøkkel, om jeg får lov til å løfte en pekefinger.
 
-### På tide med en oppussing
+## På tide med en oppussing
 
 Jeg gikk lenge og tenkte på å lage en ny versjon av appen. Det var noe funksjonalitet jeg savnet, og så tenkte jeg at det hadde vært kult å lage noe til iPhone i tillegg.
 
