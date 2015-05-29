@@ -1,0 +1,35 @@
+{% include header.html %}
+
+<div class="container">
+    <div class="row">
+        <div class="one-third column">
+            {% if page.previous != nil %}
+                <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+            {% else %}
+                No previous post
+            {% endif %}
+        </div>
+        <div class="one-third column">
+            <a href="/">{{ site.name }}</a>
+        </div>
+        <div class="one-third column">
+            {% if next.previous != nil %}
+                <a href="{{ next.previous.url }}">{{ next.previous.title }}</a>
+            {% else %}
+                No next post
+            {% endif %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns content">
+            {{ content }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns">
+            {% include disqus.html %}
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}

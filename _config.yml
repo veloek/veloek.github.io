@@ -1,0 +1,21 @@
+name: "Kodehode"
+description: "En blogg"
+
+url: "http://kodehode.no"
+
+markdown: rdiscount
+permalink: pretty
+highlighter: "pygments"
+
+defaults:
+  -
+    scope:
+      path: "" # Match all files
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "posts"
