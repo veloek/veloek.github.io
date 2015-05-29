@@ -1,7 +1,34 @@
 ---
-title: Kodehode.no
+title: Kodehode
 ---
 
 # Hei verden!
 
-Dette er mitt første Jekyll-nettsted
+<ul class="post-list">
+    {% for post in site.posts %}
+        <li>
+            <div class="title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+            <div class="excerpt">{{ post.excerpt }}</div>
+            <div class="date">Posted <span class="date">
+                {% assign m = post.date | date: "%-m" %}
+                {{ post.date | date: "%-d." }}
+                {% case m %}
+                    {% when '1' %}Januar
+                    {% when '2' %}Februar
+                    {% when '3' %}Mars
+                    {% when '4' %}April
+                    {% when '5' %}Mai
+                    {% when '6' %}Juni
+                    {% when '7' %}Juli
+                    {% when '8' %}August
+                    {% when '9' %}September
+                    {% when '10' %}Oktober
+                    {% when '11' %}November
+                    {% when '12' %}Desember
+                {% endcase %}
+                {{ post.date | date: "%Y" }}
+            </span></div>
+        </li>
+    </a>
+    {% endfor %}
+</ul>

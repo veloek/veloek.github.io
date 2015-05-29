@@ -1,0 +1,46 @@
+---
+# Front matter comment to make Jekyll compile sass
+---
+
+.container {
+    margin-top: 5%;
+}
+
+.content {
+
+}
+
+.footer {
+    text-align: center;
+    margin-top: 5em;
+    font-size: 0.9em;
+}
+
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.post-list {
+	list-style-type: none;
+
+	li {
+		padding: 1em 2em;
+		border-bottom: solid black 1px;
+
+		&:last-child {
+			border: none;
+		}
+	}
+}
+
+.row.spacer {
+	min-height: 2em;
+}
