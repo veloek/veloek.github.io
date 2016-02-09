@@ -5,7 +5,7 @@ url: "http://kodehode.no"
 
 markdown: kramdown
 permalink: pretty
-highlighter: "pygments"
+highlighter: "rouge"
 
 defaults:
   -
