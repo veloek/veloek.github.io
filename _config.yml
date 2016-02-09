@@ -3,7 +3,7 @@ description: "En blogg"
 
 url: "http://kodehode.no"
 
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
 highlighter: "pygments"
 
